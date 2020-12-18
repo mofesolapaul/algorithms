@@ -1,5 +1,10 @@
 let V;
 
+/**
+ * Finds the shortest path to all vertices in a graph, from a source vertex
+ * @param {number[][]} graph 
+ * @param {number} source 
+ */
 function dijkstra(graph, source) {
     let distanceArray = [];
     let sptFound = [];
